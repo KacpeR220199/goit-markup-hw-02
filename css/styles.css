@@ -214,6 +214,9 @@ color: #2e2f42;
 .footer{
     background-color: #2e2f42;
 }
+.accent-footer{
+    color: #f4f4fd;
+}
 .acapit-footer{
     line-height: 1.5;
     color: #f4f4fd;
