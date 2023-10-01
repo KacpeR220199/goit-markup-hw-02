@@ -76,10 +76,6 @@ color: #ffffff;
     text-transform: uppercase;
     color:var(--logo-color);
 }
-.link{text-decoration: none;}
-._logo{
-    text-decoration: none;
-}
 .accent{
     color:var(--span-color);
     text-decoration: none;
@@ -88,12 +84,6 @@ color: #ffffff;
     list-style:none;
 }
 .link{
-    font-weight:500;
-    font-size:16px;
-    line-height:1.5;
-    letter-spacing:0.02em;
-    color:var(--link-color);
-    text-decoration:none;
 }
 .-link{
     text-decoration: none;
