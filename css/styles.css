@@ -64,6 +64,7 @@ color: #ffffff;
 --link-color:#2e2f42;
 --button-all-color:#4d5ae5;
 --button-all-background-color:#F4F4FD;
+--mail-tel-color:#434455;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -94,6 +95,11 @@ color: #ffffff;
 }
 .-link{
     text-decoration: none;
+}
+.link:hover,
+.link:focus{
+    color: #404bbf;
+
 }
 .link-studio:hover,
 .link-studio:focus{
@@ -128,6 +134,9 @@ color: #ffffff;
 }
 .mail-tel{
     list-style: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--mail-tel-color);
 }
 .mail_tel{
     font-size: 16px;
@@ -135,6 +144,10 @@ color: #ffffff;
     letter-spacing: 0.02em;
     color:#434455;
     text-decoration: none;
+}
+.mail_tel:hover,
+.mail_tel:focus{
+    color: #404bbf;
 }
 .mail:hover,
 .mail:focus {
