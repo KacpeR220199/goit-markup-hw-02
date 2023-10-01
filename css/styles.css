@@ -47,7 +47,7 @@ color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
 }
@@ -59,7 +59,9 @@ color: #ffffff;
 --first-color:#4d5ae5;
 --next-color:#2f2e42;
 --body-color:#434455;
-
+--logo-color:#4d5ae5;
+--span-color:#2e2f42;
+--link-color:#2e2f42;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -68,22 +70,28 @@ color: #ffffff;
     line-height:1.17;
     letter-spacing:0.03em;
     text-transform: uppercase;
-    color:var(--brand-color);
+    color:var(--logo-color);
     text-decoration:none;
 }
+.-logo{
+    text-decoration: none;
+}
 .accent{
-    color:var(--next-color);
+    color:var(--span-color);
 }
 .list{
     list-style:none;
 }
-.link-studio{
+.link{
     font-weight:500;
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
-    color:var(--next-color);
+    color:var(--link-color);
     text-decoration:none;
+}
+.-link{
+    text-decoration: none;
 }
 .link-studio:hover,
 .link-studio:focus{
@@ -119,7 +127,7 @@ color: #ffffff;
 .mail-tel{
     list-style: none;
 }
-.mail{
+.mail_tel{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -136,9 +144,9 @@ color: #ffffff;
 .coments{
     color: #ffffff;
     font-size: 56px;
-    line-height: 1.7;
+    line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
 }
 .next-section{
     list-style: none;
@@ -194,5 +202,5 @@ color: #2e2f42;
 .acapit-footer{
     line-height: 1.5;
     color: #f4f4fd;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
