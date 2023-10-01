@@ -21,20 +21,20 @@ body{
     background-color: #404bbf;
     cursor:pointer;
 }
-.filter-button{
+.filter-all{
     cursor: pointer;
-    background-color:#f4f4fd;
-    color: #4d5ae5;
+    background-color:var(--filter-all-background-color);
+    color: var(--filter-all-color);
     font-size: 16px;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
-.filter-button:hover,
-.filter-button:focus{
-background-color: #404bbf;
-color: #ffffff;
+.filter-all:hover,
+.filter-all:focus{
+background-color: #ffffff;
+color: #404bbf;
 
 }
 .contacts:hover,
@@ -66,6 +66,8 @@ color: #ffffff;
 --button-all-background-color:#F4F4FD;
 --mail-color:#434455;
 --link-studio-color:#2e2f42;
+--filter-all-color:#F4F4FD;
+--filter-all-background-color:#4d5ae5;
 }
 .logo{
     font-family: "Raleway", sans-serif;
