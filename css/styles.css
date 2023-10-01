@@ -74,13 +74,14 @@ color: #ffffff;
     letter-spacing:0.03em;
     text-transform: uppercase;
     color:var(--logo-color);
-    text-decoration:none;
 }
-.-logo{
+.link{text-decoration: none;}
+._logo{
     text-decoration: none;
 }
 .accent{
     color:var(--span-color);
+    text-decoration: none;
 }
 .list{
     list-style:none;
@@ -166,8 +167,8 @@ color: #ffffff;
 .next-section{
     list-style: none;
 }
-.topics{
-
+.-first-list{
+ list-style: none;
 }
 .heading{
     font-weight: 500;
